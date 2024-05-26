@@ -475,7 +475,7 @@ def predictdynamic(keypoints, text, words):
 #........................
 
 
-# In[193]:
+
 
 
 #ici on utilise pysimplegui pour la creation du gui
@@ -494,7 +494,7 @@ btn_row = [
 ]
 
 
-# In[194]:
+
 
 
 #text area
@@ -519,14 +519,14 @@ layout = [
 window = sg.Window("I hope this works", layout)
 
 
-# In[195]:
+
 
 
 #object capture video opencv
 vid = cv2.VideoCapture(0)
 
 
-# In[196]:
+
 
 
 #ces variables servent a activer ou desactiver les models
@@ -632,7 +632,7 @@ vid.release()
 window.close()
 
 
-# In[ ]:
+
 
 
 
